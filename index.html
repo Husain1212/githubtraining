@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <fieldset>
+    <legend border="1">Personal Details</legend>
+    <h2>Student Form</h2>
+    <form method="POST" name="Student_Details" onsubmit="return submitForm()" >
+      <label for="Studentname">Student name:</label><br />
+      <input type="text" value="" id="Studentname" /><br />
+      <span id="Studentnamerror" style="color: red"></span><br />
+      <label for="fname">Father name:</label><br />
+      <input type="text" id="fname" name="fname" value="" /><br /><br />
+      <label for="mobile">Mobile Number:</label><br />
+      <input type="number" id="mobile" name="mobile" value="" /><br /><br />
+      <label for="pincode">Pincode:</label><br />
+      <input type="number" id="pincode" name="pincode" value="" /><br /><br />
+      <label>Gender</label><br/>
+      <input type="Radio" name="Gender" id="Male">
+      <label for="Male">Male</label>
+      <input type="Radio" name="Gender" id="Female">
+      <label for="Female">Female</label><br><br/>
+      <label for="subjects">Subjects</label>
+      <input type="checkbox" name="subjects" id="javaScript"><label for="javScript">javaScript</label>
+      <input type="checkbox" name="subjects" id="Designing"><label for="Designing">Designing</label>
+      <input type="checkbox" name="subjects" id="java"><label for="java">java</label> <br><br/>
+           
+      <label>city</label> 
+         <select>
+            <option>Ajmer</option>
+            <option>Alwar</option>
+            <option>Jaipur</option>
+            <option>Nagour</option>
+         </select> <br><br>
+         <label>Distric</label> 
+         <select>
+            <option>Ajmer</option>
+            <option>Alwar</option>
+            <option>Jaipur</option>
+            <option>Nagour</option>
+         </select> <br><br>
+         <label>State</label> 
+         <select>
+            <option>Rajasthan</option>
+            <option>delhi</option>
+            <option>Gujrat</option>
+            <option>PunjabS</option>
+         </select> <br><br>
+      <input type="submit" value="Submit" />
+    </fieldset>
+    </form>
+      <script src="index.js"></script>
+</body>
+</html>
